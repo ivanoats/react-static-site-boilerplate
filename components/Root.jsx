@@ -26,7 +26,7 @@ var Root = React.createClass({
         </head>
         <body className='p2'>
           <Header {...this.props} />
-          <RouteHandler {...this.props} />
+          {this.props.children}
           <script
             id='initial-props'
             type='application/json'
@@ -43,4 +43,3 @@ function safeStringify (obj) {
 }
 
 module.exports = Root
-

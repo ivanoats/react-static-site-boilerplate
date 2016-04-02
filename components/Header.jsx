@@ -1,7 +1,7 @@
 
 var React = require('react')
-var Router = require('react-router')
-var Link = Router.Link
+var ReactRouter = require('react-router')
+var Link = ReactRouter.Link
 
 var Header = React.createClass({
   propTypes: {
@@ -22,4 +22,3 @@ var Header = React.createClass({
 })
 
 module.exports = Header
-
